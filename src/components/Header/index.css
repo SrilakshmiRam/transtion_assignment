@@ -1,0 +1,79 @@
+.header{
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-title{
+    font-family: Inter;
+    font-size: 17.5px;
+    font-weight: 500;
+    line-height: 26.25px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #8A8EA6;
+    padding-left: 15px;
+    flex-grow: 1;
+}
+
+.home{
+    margin-right: 15px;
+}
+
+.name-text{
+    background-color: #FCCC55;
+    display: flex;
+    align-self: center;
+    padding: 3px;
+    border-radius: 3px;
+    margin-right: 10px;
+    font-family: "Roboto";
+    font-size: 15px;
+}
+
+.admin{
+    background-color:#E553BC ;
+    display: flex;
+    align-self: center;
+    padding: 3px;
+}
+
+.admin-profile{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin-right: 10px;
+}
+
+.logout{
+    color: #8A8EA6;
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 14px;
+    margin-right: 10px;
+    margin-left: 5px;
+}
+
+.name{
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  text-align: left;
+  color: #8A8EA6;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.logout-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.avatar{
+    width: 20%;
+}

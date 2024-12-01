@@ -1,0 +1,87 @@
+.categories-list{
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+.sidebar{
+    background-color: #0D1424;
+    padding: 14px;
+    width: 14%;
+  }
+  
+  .image-logo{
+    width: 75%;
+  }
+  
+  .icon-text{
+    display: flex;
+    align-items: center;
+  }
+
+  .circle{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    border: 2px solid #9EA0B3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+  }
+  
+  
+  .icon-container{
+    display: flex;
+    align-items: center;
+    height: 25px;
+    background-color: transparent;
+    border-width: 0px;
+    padding-left: 0px;
+    margin-bottom: 10px;
+    width: 200px;
+  }
+  
+  .button-container{
+    display: flex;
+    align-items: center;
+    height: 25px;
+    background-color: transparent;
+    border-width: 0px;
+    padding-left: 0px;
+    margin-bottom: 10px;
+    width: 200px;
+  }
+  
+  .icon-link{
+    color: #9EA0B3;
+    height: 25px;
+    width: 25px;
+    padding-right: 10px;
+  }
+  
+  .text{
+    font-family: "Roboto";
+    font-size: 12px;
+    font-weight: 600;
+    color: #9EA0B3;
+    padding-right: 15px;
+  }
+  
+  .icon{
+    height: 25px;
+    width: 25px;
+    padding-right: 10px;
+  }
+  
+  .vector-icon{
+    height: 10px;
+    width: 10px;
+  }
+
+  .active-icon{
+    color:#0F8BFD;
+  }
+
+  .active-text{
+    color: #ffffff;
+  }

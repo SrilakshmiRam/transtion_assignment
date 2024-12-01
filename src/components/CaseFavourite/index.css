@@ -1,0 +1,70 @@
+.favourite-container{
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    border-radius: 5px;
+    padding-bottom: 10px;
+    margin: 10px;
+}
+
+.fav-text{
+    padding: 10px;
+    background-color: #4C629233;
+    margin: 10px;
+    border-radius: 6px;
+    font-size: 10px;
+    font-weight: 500;
+    border: 1px #ddd solid;
+}
+
+.image-photo{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    background-color: #4C629233;
+    margin: 10px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.pin-text{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom:1px solid #ddd;
+    margin-bottom: 10px;
+}
+
+.favourite-text{
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 31.5px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    font-style: bold;
+}
+
+
+.pin-icon{
+    height: 30px;
+    width: 30px;
+    color: #0F8BFD;
+    margin-right: 15px;
+}
+
+.image-icon{
+    height: 25px;
+    width: 25px;
+    margin-right: 15px;
+}
+
+.photo-text{
+    color: #0F1729;
+    font-family: "Roboto";
+    font-weight: 300;
+    line-height: 21px;
+}

@@ -1,25 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+import Sidebar from "./components/Sidebar";
+import Header from "./components/Header";
+import MessageBoxes  from "./components/MessageBoxes";
+import CaseFavourite from "./components/CaseFavourite";
+import ActionLauncher from "./components/ActionLauncher";
+import GreetingTemplate from "./components/GreetingTemplate";
+import ChatWindow from "./components/ChatWindow";
+import AgentForm from "./components/AgentForm";
+
+import'./App.css'
+
+const App=()=>(
+  <div className="main-container">
+    <Sidebar/>
+    <div className='section-container'>
+       <Header/>
+       <MessageBoxes/>
+       <div className="componets">
+           <AgentForm />
+           <div className="middle">
+            <ChatWindow/>
+           </div>
+           <div className="components-container">
+               <GreetingTemplate/>
+               <ActionLauncher />
+               <CaseFavourite/>
+           </div>
+       </div>
     </div>
-  );
-}
+  </div>
+)
 
 export default App;
